@@ -1,0 +1,97 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    background-color: #333;
+}
+
+
+h1{
+    margin-top:200px;
+    text-align:center;
+    color: #fff;
+    font-size:40px;
+    letter-spacing: 1px;
+}
+
+.inputArea{
+
+    text-align: center;
+    margin-top:80px;
+}
+
+.inputArea input{
+    outline:none;
+    width: 200px;
+    height:20px;
+    padding:18px;
+    background: transparent;
+    color:#fff;
+    border:1px solid #c1c1c1;
+    font-size: 16px;
+    text-align: center;
+}
+
+.inputArea input::placeholder{
+    font-size: 14px;
+}
+
+.submitArea{
+    margin-top:50px;
+    text-align: center;
+}
+
+.submitArea input{
+    color:#fff;
+    padding:10px 30px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.submitArea input:hover{
+    color:#fff;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.cepBigArea{
+    display: none;
+    justify-content:center;
+}
+
+.cepArea{
+    box-shadow: 0 0 5px #fff;
+    background-color:#1e1d1d;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-top: 60px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 250px;
+    height: 125px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.cepArea div{
+    margin-top: 10px;
+    background-color: inherit;
+}
+
+.warningReloading{
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
+
+.warningError{
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    color:red;
+    font-weight: bold;
+}
